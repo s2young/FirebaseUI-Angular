@@ -2,9 +2,7 @@ import { Injectable } from '@angular/core';
 import {AngularFireAuth} from 'angularfire2/auth';
 import * as firebaseui from 'firebaseui';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class FirebaseuiAngularLibraryService {
   public firebaseUiInstance: firebaseui.auth.AuthUI;
 
