@@ -13,7 +13,7 @@
     "angular",
     "firebase",
     "firebaseui",
-    "angularfire2"
+    "@angular/fire"
   ],
   "license": "MIT",
   "bugs": {
